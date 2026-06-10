@@ -242,8 +242,9 @@ li {
     margin-top: 10px;
     padding: 10px;
     display: flex;
+    justify-content: space-evenly;
   
-    
+    align-items: center;
     flex-direction: column;
     gap: 10px;
 
@@ -264,7 +265,8 @@ li {
     background-repeat: no-repeat; 
     background-size: cover;       
     background-position: center;   
-    
+    display: flex;
+    flex-direction: column;
     height: 450px;
     width: 650px;
     border-radius: 8px;
@@ -282,10 +284,10 @@ li {
   border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap; /* Heto ang sikreto para kusa silang bababa kapag masikip na */
   padding: 20px;   /* Dinagdagan ng kaunting padding para may hininga */
-  margin-top: 100px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
+  margin-top: 200px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
   box-sizing: border-box;
 }
 
@@ -325,16 +327,16 @@ li {
     font-size: 18px;
 }
 .baby {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     background-color: #d8dfef;
     text-align: center;
     display: flex;
-    align-items: center;
+    padding: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+  
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 
