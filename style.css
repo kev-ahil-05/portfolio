@@ -202,7 +202,7 @@ h3 {
 }
 
 .s1 {
-    height: 90vh;
+    height: 100vh;
     margin-top: 500px;
 }
 
@@ -211,15 +211,16 @@ li {
     font-size: 18px;
 }
 .s2 {
-    height: 90vh;
+    height: 100vh;
+    margin-top: 50px;
 }
 
 .s3 {
-   height: 90vh;
+   height: 100vh;
 }
 
 .s4{
-    height: 90vh;
+    height: 100vh;
 }
 
 .container {
