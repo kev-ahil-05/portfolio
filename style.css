@@ -234,7 +234,7 @@ li {
 }
 
 .child {
-    background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 650px;
     width: 750px;
     border-radius: 8px;
@@ -242,9 +242,11 @@ li {
     margin-top: 10px;
     padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+  
+    
+    flex-direction: column;
     gap: 10px;
+
 }
 
 .call {
@@ -291,7 +293,7 @@ li {
   margin-top: 10px;
   height: 250px;
   width: 200px; /* Fixed width sa desktop ok lang basta may flex-wrap ang parent */
-  background-color: rgb(163, 186, 187);
+  background-color:  #d8dfef;
   margin-left: 10px;
   color: black;
   border-radius: 8px;
