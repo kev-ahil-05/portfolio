@@ -9,15 +9,27 @@
 </head>
 <body>
     
-    <nav><h2 class="logo">Q<span>A</span>.dev</h2>
-        <ul>
-            
-            <li><a href="#edu">EDUCATION</a></li>
-             <li><a href="#skill">SKILLS</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-               <li><a href="#exp">EXPERIENCE</a></li>              
-        </ul>
-    </nav>
+   <nav class="navbar">
+  <div class="logo">Q<span>.A</span></div>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <rect x="2" y="4" width="13" height="4" rx="2" />
+      <circle cx="19" cy="6" r="2" />
+      <rect x="2" y="10" width="13" height="4" rx="2" />
+      <circle cx="19" cy="12" r="2" />
+      <rect x="2" y="16" width="13" height="4" rx="2" />
+      <circle cx="19" cy="18" r="2" />
+    </svg>
+  </button>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#edu">EDUCATION</a></li>
+    <li><a href="#skill">SKILLS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="#exp">EXPERIENCE</a></li>
+  </ul>
+</nav>
 
   <div class="hero-container">
     <div class="img-box">
@@ -231,12 +243,25 @@ collaborate on and complete the system named ZamSib ePLGU.
        <h4>Internship – BFP- Liloy Fire Station
 (January 6, 2025 – March 14, 2026)</h4>
 <p class="para">I have worked as office staff for nearly two months, Through the use of Microsoft Word, Excel, and PowerPoint, I have gained valuable insights
-into professional conduct and workplace efficiency, which I can apply to improve my performance in
-my future career.</p>
+into professional conduct and workplace efficiency.</p>
        
 </div>
 </div>
     </section>
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
 
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Opsyonal: Isara ang menu kapag may clinic na link ang user
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
 </body>
 </html>

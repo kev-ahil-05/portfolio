@@ -87,6 +87,76 @@ h3 {
     margin-left: 50px;
 }
 
+/* --- DESKTOP STYLES (Default) --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #11141a; /* Bagayan natin sa madilim mong tema */
+  position: relative;
+}
+
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff0000; /* Red accent gaya ng nasa design mo */
+}
+
+/* Itago ang options menu button sa desktop */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* --- MOBILE STYLES (Phone Screen) --- */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Lalabas na ang icon mo rito */
+  }
+
+  .nav-links {
+    display: none; /* Itago muna ang mga links */
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Lalabas sa mismong ilalim ng navbar */
+    left: 0;
+    width: 100%;
+    background-color: #1a1d24;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    gap: 15px;
+    text-align: center;
+    z-index: 999;
+  }
+
+  /* Klase na ikakabit ng JavaScript kapag pinindot ang icon */
+  .nav-links.active {
+    display: flex;
+  }
+}
 /* Mga Typography Styles mo */
 span {
     color: red;
@@ -150,8 +220,8 @@ li {
 .container {
     background-color: rgba(0, 0, 0, 0.5);
 
-    height: 500px;
-    width: 700px;
+    height: 700px;
+    width: 800px;
     border-radius: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -160,12 +230,12 @@ li {
 
 .child {
     background-color: whitesmoke;
-    height: 450px;
-    width: 650px;
+    height: 600px;
+    width: 750px;
     border-radius: 8px;
     margin-left: 25px;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .call {
