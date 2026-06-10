@@ -225,26 +225,26 @@ li {
 .container {
     background-color: rgba(0, 0, 0, 0.5);
 
-    height: 800px;
-    width: 100%;
+    height: 700px;
+    width: 800px;
     border-radius: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: px;
-    box-sizing: border-box;
+    margin-left: 450px;
 }
 
 .child {
     background-color: whitesmoke;
-    
-    width: 100%;
+    height: 650px;
+    width: 750px;
     border-radius: 8px;
     margin-left: 15px;
     margin-top: 10px;
     padding: 10px;
-    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .call {
@@ -268,10 +268,72 @@ li {
     border-radius: 8px;
     margin-left: 20px;
     margin-top: 20px;
-}  
+} 
 
+
+
+
+.parent {
+  min-height: 350px; /* Ginawang 'min-height' para pwedeng humaba pababa kung marami ang .bata */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Heto ang sikreto para kusa silang bababa kapag masikip na */
+  padding: 20px;   /* Dinagdagan ng kaunting padding para may hininga */
+  margin-top: 100px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
+  box-sizing: border-box;
+}
+
+.bata {
+  margin-top: 10px;
+  height: 250px;
+  width: 200px; /* Fixed width sa desktop ok lang basta may flex-wrap ang parent */
+  background-color: rgb(163, 186, 187);
+  margin-left: 10px;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .parent {
+    margin-top: 40px;      
+    justify-content: center; 
+    gap: 15px;             
+    padding: 15px;
+  }
+
+  .bata {
+    margin-left: 0;        /*  */
+    width: 100%;           /*  */
+    max-width: 280px;      /* Perosa CP */
+    height: auto;          /* Ma*/
+    min-height: 180px;
+  }
+}
 .para {
+
     font-size: 18px;
+}
+.baby {
+    height: 250px;
+    width: 250px;
+    background-color: #d8dfef;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
 }
 
 h4{
