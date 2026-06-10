@@ -1,6 +1,6 @@
 body {
     background-image: url("bg.avif");
-    height: 100vh;
+    height: 109vh;
 }
 
 nav {
@@ -212,7 +212,6 @@ li {
 }
 .s2 {
     height: 100vh;
-    margin-top: 50px;
 }
 
 .s3 {
@@ -220,7 +219,7 @@ li {
 }
 
 .s4{
-    height: 100vh;
+    height: 109vh;
 }
 
 .container {
