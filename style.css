@@ -128,8 +128,13 @@ h3 {
   border: none;
   color: #fff;
   cursor: pointer;
+  
 }
 
+.menu-toggle:hover{
+    background-color: orangered;
+    border-radius: 4px;
+}
 
 /* --- MOBILE STYLES (Phone Screen) --- */
 @media (max-width: 768px) {
@@ -225,17 +230,17 @@ li {
     border-radius: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .child {
     background-color: whitesmoke;
-    height: 600px;
+    height: 650px;
     width: 750px;
     border-radius: 8px;
-    margin-left: 25px;
-    margin-top: 20px;
-    padding: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .call {
@@ -294,7 +299,7 @@ ul{
 }
 
 /* Para sa mga Phones at Screens na mas maliit sa 768px */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     /* Navbar Adjustment */
     nav ul {
         float: none;
