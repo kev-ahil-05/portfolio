@@ -196,53 +196,6 @@ h3 {
     color: aliceblue;
 }
 
-.sitter {
-  padding: 60px 20px;
-  background-color: #111827; /* Swak sa madilim mong tema; palitan kung iba ang kulay mo */
-  color: #ffffff;
-  width: 100%;
-}
-
-/* Heading / Title ng Experience */
-.tt1 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 40px;
-  letter-spacing: 2px;
-}
-
-/* Wrapper / Container */
-.container1 {
-  width: 100%;
-  max-width: 800px; /* Nilagyan ng max-width para hindi masyadong banat sa desktop */
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/* Ang mismong kahon ng mga content */
-.childer {
-  display: flex;
-  flex-direction: column;
-  gap: 30px; /* Nagbibigay ng sapat na patlang sa pagitan ng mga trabaho */
-}
-
-/* Styling para sa Job Title at Petsa */
-.childer h4 {
-  font-size: 1.25rem;
-  color: #f3f4f6;
-  line-height: 1.5;
-  margin-bottom: 8px;
-  font-weight: 600;
-}
-
-/* Styling para sa deskripsyon ng trabaho */
-.para {
-  font-size: 1rem;
-  color: #9ca3af; /* Medyo gray para mas madaling basahin */
-  line-height: 1.6;
-  text-align: justify; /* Para pantay ang gilid ng mga talata */
-  margin-bottom: 10px;
-}
 .text{
     margin-top: 50px;
     margin-left: 50px;
@@ -272,22 +225,26 @@ li {
 .container {
     background-color: rgba(0, 0, 0, 0.5);
 
-    height: 700px;
-    width: 800px;
+    height: 800px;
+    width: 100%;
     border-radius: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 450px;
+    margin-left: px;
+    box-sizing: border-box;
 }
 
 .child {
     background-color: whitesmoke;
-    height: 650px;
-    width: 750px;
+    
+    width: 100%;
     border-radius: 8px;
     margin-left: 15px;
     margin-top: 10px;
     padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .call {
@@ -346,28 +303,7 @@ ul{
 }
 
 /* Para sa mga Phones at Screens na mas maliit sa 768px */
-@media (max-width: 768px) {
- 
- .sitter {
-    padding: 40px 15px; /* Binawasan ang padding sa gilid para sa maliit na screen */
-  }
-
-  .tt1 {
-    font-size: 1.6rem; /* Mas maliit na font size para sa mobile */
-    margin-bottom: 25px;
-  }
-
-  .childer h4 {
-    font-size: 1.1rem; /* Swak na laki ng h4 para hindi mag-overflow sa CP */
-  }
-
-  .para {
-    font-size: 0.95rem; /* Mas readable na size sa mobile */
-    text-align: left;
-    color: black; /* Mas magandang tingnan ang left-align kapag maliit ang screen */
-  }
-}
- 
+@media (max-width: 576px) {
     /* Navbar Adjustment */
     nav ul {
         float: none;
