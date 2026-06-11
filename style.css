@@ -6,7 +6,7 @@ body {
 nav {
     padding: 1rem;
     display: flex;             /* Ginagawang flex container ang buong nav bar */
-    justify-content: space-between; /* Itutulak ang logo sa kaliwa at ang ul sa kanan */
+    justify-content: space-between; /* Itutulak ang sa kaliwa at ang ul sa kanan */
     align-items: center;       /* Ito ang sikreto para maging pantay na pantay sila vertikal */
 }
 
@@ -22,6 +22,7 @@ nav ul {
 }
 
 .logo {
+    
     margin-left: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;  
@@ -93,7 +94,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #11141a; /* Bagayan natin sa madilim mong tema */
+  background-color: rgba(0, 0, 0, 0.1); /* Bagayan natin sa madilim mong tema */
   position: relative;
 }
 
@@ -101,6 +102,8 @@ h3 {
   color: #fff;
   font-weight: bold;
   font-size: 1.5rem;
+  margin-top: 15px;
+
 }
 
 .nav-links {
@@ -151,7 +154,7 @@ h3 {
     width: 100%;
     background-color: #1a1d24;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     gap: 15px;
     text-align: center;
     z-index: 999;
@@ -199,7 +202,7 @@ h3 {
 
 .text{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 2px;
 }
 
 .s1 {
@@ -281,7 +284,7 @@ li {
 .parent {
   min-height: 350px; /* Ginawang 'min-height' para pwedeng humaba pababa kung marami ang .bata */
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   display: flex;
   align-items: center;
