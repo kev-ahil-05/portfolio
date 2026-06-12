@@ -304,7 +304,6 @@ li {
   border-radius: 8px;
   border: 1px solid cyan;
   padding: 10px;
- 
   text-align: center;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -343,6 +342,7 @@ li {
     border-radius: 8px;
     margin-bottom: 5px;
     border: 1px solid cyan;
+    box-sizing: border-box;
 }
 
 h4{
@@ -428,7 +428,7 @@ ul{
     /* Section heights gagawing auto para hindi mag-overlap ang mahabang text */
     .s1, .s2, .s3, .s4 {
         height: 130vh;
-        margin: 15px;
-        padding-bottom: 5px;
+        margin: 20px;
+        padding: 10px;
     }
 }
