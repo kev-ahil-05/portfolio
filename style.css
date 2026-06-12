@@ -286,7 +286,6 @@ li {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   display: flex;
- 
   justify-content: space-around;
   flex-wrap: wrap; /* Heto ang sikreto para kusa silang bababa kapag masikip na */
   padding: 20px;   /* Dinagdagan ng kaunting padding para may hininga */
@@ -428,8 +427,8 @@ ul{
     
     /* Section heights gagawing auto para hindi mag-overlap ang mahabang text */
     .s1, .s2, .s3, .s4 {
-        height: 128vh;
-        margin-top: 20px;
+        height: 130vh;
+        margin: 70px;
         padding-bottom: 5px;
     }
 }
