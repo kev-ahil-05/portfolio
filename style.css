@@ -428,7 +428,7 @@ ul{
     /* Section heights gagawing auto para hindi mag-overlap ang mahabang text */
     .s1, .s2, .s3, .s4 {
         height: 130vh;
-        margin: 70px;
+        margin: 15px;
         padding-bottom: 5px;
     }
 }
