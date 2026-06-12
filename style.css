@@ -286,24 +286,26 @@ li {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
+ 
+  justify-content: space-evenly;
   flex-wrap: wrap; /* Heto ang sikreto para kusa silang bababa kapag masikip na */
   padding: 20px;   /* Dinagdagan ng kaunting padding para may hininga */
   margin-top: 300px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
   box-sizing: border-box;
-
+  margin-left: 
 }
 
 .bata {
   margin-top: 10px;
-  height: 225px;
-  width: 325px; /* Fixed width sa desktop ok lang basta may flex-wrap ang parent */
+  height: 300px;
+  width: 250px; /* Fixed width sa desktop ok lang basta may flex-wrap ang parent */
   background-color:  rgba(0, 0, 0, 0.1);
   margin-left: 10px;
   color: whitesmoke;
   border-radius: 8px;
   border: 1px solid cyan;
   padding: 10px;
+ 
   text-align: center;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -331,7 +333,7 @@ li {
     font-size: 18px;
 }
 .baby {
-    height: 250px;
+    height: 300px;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -342,7 +344,6 @@ li {
     border-radius: 8px;
     margin-bottom: 5px;
     border: 1px solid cyan;
-    box-sizing: border-box;
 }
 
 h4{
@@ -427,8 +428,8 @@ ul{
     
     /* Section heights gagawing auto para hindi mag-overlap ang mahabang text */
     .s1, .s2, .s3, .s4 {
-        height: 130vh;
-        margin: 20px;
-        padding: 10px;
+        height: 128vh;
+        margin-top: 20px;
+        padding-bottom: 5px;
     }
 }
