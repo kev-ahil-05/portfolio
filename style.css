@@ -1,3 +1,18 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+.s1 .s2 .s3 .s4 {
+    scroll-margin-top: 100px;
+}
+
+
+@media (prefers-reduce-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+}
+
 body {
     background-image: url("bg.avif");
     height: 109vh;
@@ -153,7 +168,7 @@ h3 {
     top: 100%; /* Lalabas sa mismong ilalim ng navbar */
     left: 0;
     width: 100%;
-    background-color: #1a1d24;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     gap: 15px;
@@ -335,21 +350,35 @@ li {
 
     font-size: 18px;
 }
+.pan{
+    color: #ffffff;
+}
 .baby {
     height: 250px;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
+    margin-left: 15px;
+    margin-top: 20px;
     color: aliceblue;
     border-radius: 8px;
     margin-bottom: 5px;
     border: 1px solid cyan;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.baby:hover{
+    background-color: dimgray;
+    transition: 2s;
+}
+.bata:hover{
+    background-color: dimgray;
+    transition: 2s;
+}
 h4{ 
     
     margin-left: 15px;
@@ -437,4 +466,100 @@ ul{
         margin-top: 20px;
         padding-bottom: 5px;
     }
+}
+.container1{
+    width: 90%;
+    max-width: 360px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.skills1{
+    margin-bottom: 20px;
+}
+.info{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 4px;
+
+}
+
+.bar{
+    height: 10px;
+    background-color: #333;
+    border-radius: 999px;
+    overflow: hidden;
+
+}
+.progress1{
+    height: 100%;
+    width: 80%;
+    background-color: #00d0ff;
+    border-radius: inherit;
+    animation: fill 2s forwards;
+}
+.progress2{
+    height: 100%;
+    width: 85%;
+    background-color: #00d0ff;
+    border-radius: inherit;
+    animation: fill 2s forwards;
+}
+.progress3{
+    height: 100%;
+    width: 80%;
+    background-color: #00d0ff;
+    border-radius: inherit;
+    animation: fill 2s forwards;
+}
+.progress4{
+    height: 100%;
+    width: 90%;
+    background-color: #00d0ff;
+    border-radius: inherit;
+    animation: fill 2s forwards;
+}
+
+@keyframes fill1 {
+    to{
+        width: 85%;
+    }
+    
+}
+
+@keyframes fill2 {
+    to{
+        width: 80%;
+    }
+}
+
+
+
+@keyframes fill3 {
+    to{
+        width: 85%;
+    }
+}
+@keyframes fill4 {
+    to{
+        width: 90%;
+    }
+}
+.progres1-85 {
+    width: 85%;
+      animation: fill 2s forwards;
+}
+.progress2-80 {
+    width: 80%;
+      animation: fill 2s forwards;
+}
+.progress3-85 {
+    width: 85%;
+      animation: fill 2s forwards;
+}
+.progress4-90 {
+    width: 90%;
+      animation: fill 2s forwards;
 }
