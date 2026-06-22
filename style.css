@@ -15,7 +15,7 @@ html, body{
 
 body {
     background-image: url("bg.avif");
-    height: 109vh;
+    height: 100vh;
     padding: 10px;
 }
 
@@ -137,7 +137,8 @@ h3 {
 }
 
 .nav-links a:hover {
-  color: #ff0000; /* Red accent gaya ng nasa design mo */
+  color: #ff0000; 
+  
 }
 
 /* Itago ang options menu button sa desktop */
@@ -240,7 +241,7 @@ li {
 }
 
 .s4{
-    height: 109vh;
+    height: 100vh;
 }
 
 .container {
@@ -374,10 +375,12 @@ li {
 .baby:hover{
     background-color: dimgray;
     transition: 2s;
+    transform: scale(1.1);
 }
 .bata:hover{
     background-color: dimgray;
     transition: 2s;
+    transform: scale(1.1);
 }
 h4{ 
     
