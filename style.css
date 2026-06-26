@@ -1,5 +1,6 @@
 html, body{
     scroll-behavior: smooth;
+    transition: 2s;
 }
 
 .s1 .s2 .s3 .s4 {
@@ -259,12 +260,12 @@ li {
 
 .child {
     background-color: rgba(0, 0, 0, 0.1);
-    height: 650px;
+    height: 700px;
     width: 100%;
     border-radius: 8px;
     margin-left: 0px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    padding: px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -312,8 +313,8 @@ li {
  
   justify-content: space-evenly;
   flex-wrap: wrap; /* Heto ang sikreto para kusa silang bababa kapag masikip na */
-  padding: 20px;   /* Dinagdagan ng kaunting padding para may hininga */
-  margin-top: 300px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
+  padding: px;   /* Dinagdagan ng kaunting padding para may hininga */
+  margin-top: 350px; /* Binawasan nang kaunti sa desktop, pero ikaw ang bahala rito */
   box-sizing: border-box;
   margin-left: 0;
 }
@@ -382,7 +383,7 @@ p{
     padding: 10px;
     flex-wrap: wrap;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: aliceblue;
     border-radius: 8px;
     margin-bottom: 5px;
