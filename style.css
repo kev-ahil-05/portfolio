@@ -1,6 +1,7 @@
 html, body{
     scroll-behavior: smooth;
     transition: 2s;
+    flex-wrap: wrap;
 }
 
 .s1 .s2 .s3 .s4 {
@@ -226,7 +227,7 @@ h3 {
 }
 
 .s1 {
-    height: 109vh;
+    height: 100vh;
     margin-top: 500px;
 }
 
@@ -235,16 +236,21 @@ li {
     font-size: 18px;
 }
 .s2 {
-    height: 109vh;
+    height: 100vh;
     
 }
 
 .s3 {
-   height: 109vh;
+   height: 100vh;
 }
 
+
+
+
+
+
 .s4{
-    height: 109vh;
+    height: 100vh;
 }
 
 .container {
